@@ -34,7 +34,7 @@ header {
     right: 0;
     z-index: 1000;
     width: 100%;
-    background: burlywood;
+    background: transparent;
     padding: 27px 17%;
     display: flex;
     align-items: center;
@@ -423,7 +423,7 @@ header.sticky{
         font-size: 2.2rem;
         font-weight: 400;
     }
-    header.open{
+    .navbar.open{
         left: 0;
     }
  }
@@ -460,6 +460,17 @@ header.sticky{
        section{
         padding: 60px 3% 50px;
        }  
+       .home-text h2{
+        font-size: 2rem;
+        margin-bottom: 30px;
+        color: #fff;
+       }
+       .home-text p{
+        font-size: var(--p-font);
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 35px;
+       }
  }
 
  
