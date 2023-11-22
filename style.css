@@ -62,6 +62,9 @@ header ul li a{
 header ul li a:hover{
     color: var(--main-color);
 }
+#toggle-dark{
+    cursor: pointer;
+}
 .nav-socials{
     display: flex;
     align-items: center;
@@ -376,7 +379,7 @@ header.sticky{
 }
 
 @media (max-width: 1200px) {
-   c
+   
     :root{
         --h1-font: 4.6rem;
         --h2-font: 2.8rem;
